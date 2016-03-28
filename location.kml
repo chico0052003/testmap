@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>location.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="failed">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed0">
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="failed1">
+	</Style>
+	<Folder>
+		<name>我的位置</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>121.2261638090734</longitude>
+			<latitude>24.95671250196755</latitude>
+			<altitude>0</altitude>
+			<heading>0.02113083853506923</heading>
+			<tilt>16.15522610902321</tilt>
+			<range>4023.580220689998</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>:/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>:/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>雙贏涼麵</name>
+			<description><![CDATA[320桃園市中壢區中央東路59號<br>
+03 427 8550<br>
+
+<img src="http://farm9.static.flickr.com/8184/8127601128_2fc60d931e_b.jpg"/>]]></description>
+			<LookAt>
+				<longitude>121.2262408331094</longitude>
+				<latitude>24.95683280350745</latitude>
+				<altitude>0</altitude>
+				<heading>0.002514071447333137</heading>
+				<tilt>14.90584506933936</tilt>
+				<range>511.0875690371843</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>121.2254592457747,24.95681970602202,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中壢火車站</name>
+			<description><![CDATA[320桃園市中壢區中和路139號
+<br>03 286 8833<br
+<img src="http://d.share.photo.xuite.net/crosser/1d2deca/12425094/610187844_m.jpg"/>
+]]></description>
+			<LookAt>
+				<longitude>121.2262929622772</longitude>
+				<latitude>24.95447968554008</latitude>
+				<altitude>0</altitude>
+				<heading>0.002702788706932772</heading>
+				<tilt>20.46130851659317</tilt>
+				<range>889.808076145791</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>121.2255540337446,24.95345985070898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>中壢SOGO</name>
+			<address>320桃園市中壢區元化路357號</address>
+			<phoneNumber>03 422 7000</phoneNumber>
+			<snippet>320桃園市中壢區元化路357號</snippet>
+			<description><![CDATA[320桃園市中壢區元化路357號<br>
+034227000<br>
+
+<img src="http://pic.pimg.tw/christine161/1379865735-2216813095.jpg"/>]]></description>
+			<styleUrl>#failed</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=24.962448&amp;lng=121.22356599999999&amp;fid=0x34682236b39fb4e7:0xb47ceb7da75931b&amp;q=320台灣桃園市中壢區元化路357號中壢SOGO&amp;hl=zh-TW&amp;gl=tw&amp;client=earth-client&amp;cv=7.1.5.1557&amp;useragent=GoogleEarth/7.1.5.1557(Windows;Microsoft Windows (6.2.9200.0);zh-Hant;kml:2.2;client:Free;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>121.223566,24.962448,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						121.2195993476901,24.95947301076754,0 121.2195993476901,24.96542298923246,0 121.2275326523099,24.96542298923246,0 121.2275326523099,24.95947301076754,0 121.2195993476901,24.95947301076754,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
