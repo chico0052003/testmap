@@ -34,74 +34,26 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Folder>
-		<name>我的位置</name>
-		<open>1</open>
-		<LookAt>
-			<longitude>121.2261638090734</longitude>
-			<latitude>24.95671250196755</latitude>
-			<altitude>0</altitude>
-			<heading>0.02113083853506923</heading>
-			<tilt>16.15522610902321</tilt>
-			<range>4023.580220689998</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<Style>
-			<ListStyle>
-				<listItemType>check</listItemType>
-				<ItemIcon>
-					<state>open</state>
-					<href>:/mysavedplaces_open.png</href>
-				</ItemIcon>
-				<ItemIcon>
-					<state>closed</state>
-					<href>:/mysavedplaces_closed.png</href>
-				</ItemIcon>
-				<bgColor>00ffffff</bgColor>
-				<maxSnippetLines>2</maxSnippetLines>
-			</ListStyle>
-		</Style>
-		<Placemark>
-			<name>雙贏涼麵</name>
-			<description><![CDATA[320桃園市中壢區中央東路59號<br>
+	<Placemark>
+		<name>雙贏涼麵</name>
+		<description><![CDATA[320桃園市中壢區中央東路59號<br>
 03 427 8550<br>
 
 <img src="http://farm9.static.flickr.com/8184/8127601128_2fc60d931e_b.jpg"/>]]></description>
-			<LookAt>
-				<longitude>121.2262408331094</longitude>
-				<latitude>24.95683280350745</latitude>
-				<altitude>0</altitude>
-				<heading>0.002514071447333137</heading>
-				<tilt>14.90584506933936</tilt>
-				<range>511.0875690371843</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_flag</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>121.2254592457747,24.95681970602202,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>中壢火車站</name>
-			<description><![CDATA[320桃園市中壢區中和路139號
-<br>03 286 8833<br
-<img src="http://d.share.photo.xuite.net/crosser/1d2deca/12425094/610187844_m.jpg"/>]]></description>
-			<LookAt>
-				<longitude>121.2262929622772</longitude>
-				<latitude>24.95447968554008</latitude>
-				<altitude>0</altitude>
-				<heading>0.002702788706932772</heading>
-				<tilt>20.46130851659317</tilt>
-				<range>889.808076145791</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_flag</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>121.2255540337446,24.95345985070898,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
+		<LookAt>
+			<longitude>121.2262408331094</longitude>
+			<latitude>24.95683280350745</latitude>
+			<altitude>0</altitude>
+			<heading>0.002514071447333137</heading>
+			<tilt>14.90584506933936</tilt>
+			<range>511.0875690371843</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_flag</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>121.2254592457747,24.95681970602202,0</coordinates>
+		</Point>
+	</Placemark>
 </Document>
 </kml>
