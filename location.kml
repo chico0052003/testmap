@@ -101,6 +101,23 @@
 			<description><![CDATA[
 			<!DOCTYPE html>
 			<html lang="zh-TW">
+			<head>
+			<style>
+			.yellow{
+			color:yellow;
+			}
+			</style>
+			</head>
+			<body style="width:100%">
+			<p class="yellow">韓鵝亭韓式料理</p>
+			<p>桃園市中壢區延平路54941981491324號</p>
+			<hr>
+			<p>周年慶全館滿1000送100</p>
+			活動日期: 2015.10.1~10.31
+			活動說明:
+			<hr>
+			<img style="width:100%" src="http://farm9.static.flickr.com/8184/8127601128_2fc60d931e_b.jpg"/>
+			</body>
 			</html>]]>
 			</description>
 			<styleUrl>#listing_A</styleUrl>
