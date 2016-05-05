@@ -36,10 +36,22 @@
 	</Style>
 	<Placemark>
 		<name>雙贏涼麵</name>
-		<description><![CDATA[320桃園市中壢區中央東路59號<br>
-03 427 8550<br>
-
-<img src="http://farm9.static.flickr.com/8184/8127601128_2fc60d931e_b.jpg"/>]]></description>
+		<description>
+		<![CDATA[
+		<style>
+		.font {
+			color:red;
+		}
+		.imgWidth{
+			width:100%;
+		}
+		</style>
+		<div class="red">320桃園市中壢區中央東路59號</div><br>
+		03 427 8550<br>
+	
+		<img class="imgWidth" src="http://farm9.static.flickr.com/8184/8127601128_2fc60d931e_b.jpg"/>
+		]]>
+		</description>
 		<LookAt>
 			<longitude>121.2262408331094</longitude>
 			<latitude>24.95683280350745</latitude>
